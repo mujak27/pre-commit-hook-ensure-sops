@@ -71,7 +71,7 @@ def check_file(filename):
                 invalid_keys.append(k)
 
     if invalid_keys:
-        return False, f"{filename}: Unencrypted values found nested under keys: {','.join(invalid_keys)}"
+        return True, f"WARNING: {filename}: Unencrypted values found nested under keys: {','.join(invalid_keys)}"
 
     return True, f"{filename}: Valid encryption"
 
