@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pre-commit-hook-ensure-sops",
-    version="1.1",
-    author="Yuvi Panda",
-    author_email="yuvipanda@gmail.com",
-    description="pre-commit hook to ensure that files that should be encrypted with sops are in fact encrypted",
+    name="pre-commit-hook-ensure-sops-fork-muwujak",
+    version="1.0",
+    author="muwujak evergarden",
+    author_email="mujakoverflow@gmail.com",
+    description="fork pre-commit hook to ensure that files that should be encrypted with sops are in fact encrypted",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yuvipanda/pre-commit-hook-ensure-sops",
+    url="https://github.com/mujak27/pre-commit-hook-ensure-sops",
     packages=setuptools.find_packages(),
     entry_points={
         "console_scripts": [
