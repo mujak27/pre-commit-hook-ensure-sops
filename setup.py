@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pre-commit-hook-ensure-sops-fork-muwujak",
-    version="1.0",
+    version="v1.0",
     author="muwujak evergarden",
     author_email="mujakoverflow@gmail.com",
     description="fork pre-commit hook to ensure that files that should be encrypted with sops are in fact encrypted",
